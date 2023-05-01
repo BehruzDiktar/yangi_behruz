@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="semantic.min.css">
+    <style>
+      
+        @media screen and (min-width:300px) {
+            
+            #ij_t{
+                display: grid;
+                gap: 23px;
+            }
+            #dostmiz{
+              display: grid;
+            }
+            #dost_xabar{
+              display: grid;
+            }
+        }
+       #login{
+        color: rgb(0, 110, 255);
+       }
+       #tur{
+        color: rgb(0, 102, 255);
+       }
+       
+    </style>
+
+    <title>OliyGoo-Chat</title>
+</head>
+<body>
+  <!-- Menyular bari -->
+
+    <div id="menyu" class="ui secondary pointing menu">
+        <a class="item active">
+          Bosh sahifa
+        </a>
+        <a href="xabarlar.html" class="item">
+          Xabarlar
+        </a>
+        <a href="dostlar.html" class="item ">
+          Do`stlar
+        </a>
+        <div class="right menu">
+          
+          <a id="tur" href="login.html"  class="ui item"><i class="big university icon"></i></a>
+          <a id="tur" href="login.html"  class="ui item"><i class="big user circle icon"></i></a>
+        </div>
+      </div>
+      <div class="ui segment">
+        <p></p>
+        <img class="ui centered medium image" src="/img/oliygochat.png" alt="">
+      </div>
+     <div class="ui header segment">
+      
+      <h1>Oliy-Goo Chat</h1>
+        <div class="ui placeholder segment">
+  <div class="ui two column stackable center aligned grid">
+    <div class="ui vertical divider">Yoki</div>
+    <div class="middle aligned row">
+      <div class="column">
+        <div class="ui icon header">
+          <i class="search icon"></i>
+          Qidiruv
+        </div>
+        <div class="field">
+          <div class="ui search">
+            <div class="ui icon input">
+              <input class="prompt" type="text" placeholder="Qidiruv tizimi...">
+              <i class="search icon"></i>
+            </div>
+            <div class="results"></div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="ui icon header">
+          <i class="handshake icon"></i>
+          Oliygoh yoki maktab
+        </div>
+        <div class="ui primary button">
+          Tanlash
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 
+     </div>
+     <div class="ui header segment">
+        <h2 class="ui center aligned icon header">
+          <i class="circular users icon"></i>
+               Do`stlar
+        </h2>
+        <div id="dostmiz" class="ui compact center menu">
+            <a class="item">
+              <i class="icon mail"></i> Xabarlar
+              <div class="floating ui red label">22</div>
+            </a>
+            <a class="item">
+              <i class="icon users"></i> Do`stlar
+              <div class="floating ui teal label">22</div>
+            </a>
+            
+              <a class="item">
+                <i class="address book icon"></i> Kontaktlar
+                <div class="floating ui teal label">34</div>
+              </a>
+              
+          </div>
+          
+        
+      <!-- Do`stlar obyekti -->
+
+        <div class="ui header segment">
+            <h2 class="ui header"></h2>
+             <img src="/img/behruz.jpg" class="ui circular image">
+               Behruz
+  
+            </h2> 
+                 <br style="margin-bottom: 53px;">
+           <div class="ui labeled button" tabindex="0">
+               <div class="ui red button">
+                  <i class="heart icon"></i> Layk
+                </div>
+                <a class="ui basic red left pointing label">
+                 1,048
+            </a>
+          </div>
+          <div class="ui labeled button" tabindex="0">
+            <div class="ui basic blue button">
+              <i class="chess king icon"></i> Dasturchi-Darajasi
+            </div>
+            <a class="ui basic left pointing blue label">
+              5
+            </a>
+          </div>
+          <div style="display: flex;" id="dost_xabar" class=" ui segment">
+            <div class="ui labeled button" tabindex="0">
+                <div class="ui button">
+                  <i class="comment outline icon"></i> Xabar qoldirish
+                </div>
+                <a class="ui basic label">
+                  2
+                </a>
+              </div>
+              <div class="ui left labeled button" tabindex="0">
+                <a class="ui basic right pointing label">
+                  2,048
+                </a>
+                <div class="ui button">
+                  <i class="circular users icon"></i> Do`stlari 
+                </div>
+              </div>
+          </div>
+          
+          
+        </div>
+        <div class="ui header segment">
+          <h2 class="ui header"></h2>
+           <img src="/img/behruz.jpg" class="ui circular image">
+             Behruz
+
+          </h2> 
+               <br style="margin-bottom: 53px;">
+         <div class="ui labeled button" tabindex="0">
+             <div class="ui red button">
+                <i class="heart icon"></i> Layk
+              </div>
+              <a class="ui basic red left pointing label">
+               1,048
+          </a>
+        </div>
+        <div class="ui labeled button" tabindex="0">
+          <div class="ui basic blue button">
+            <i class="chess king icon"></i> Dasturchi-Darajasi
+          </div>
+          <a class="ui basic left pointing blue label">
+            5
+          </a>
+        </div>
+        <div style="display: flex;" id="dost_xabar" class=" ui segment">
+          <div class="ui labeled button" tabindex="0">
+              <div class="ui button">
+                <i class="comment outline icon"></i> Xabar qoldirish
+              </div>
+              <a class="ui basic label">
+                2
+              </a>
+            </div>
+            <div class="ui left labeled button" tabindex="0">
+              <a class="ui basic right pointing label">
+                2,048
+              </a>
+              <div class="ui button">
+                <i class="circular users icon"></i> Do`stlari 
+              </div>
+            </div>
+        </div>
+        
+        
+      </div>
+      <div class="ui header segment">
+        <h2 class="ui header"></h2>
+         <img src="/img/behruz.jpg" class="ui circular image">
+           Behruz
+
+        </h2> 
+             <br style="margin-bottom: 53px;">
+       <div class="ui labeled button" tabindex="0">
+           <div class="ui red button">
+              <i class="heart icon"></i> Layk
+            </div>
+            <a class="ui basic red left pointing label">
+             1,048
+        </a>
+      </div>
+      <div class="ui labeled button" tabindex="0">
+        <div class="ui basic blue button">
+          <i class="chess king icon"></i> Dasturchi-Darajasi
+        </div>
+        <a class="ui basic left pointing blue label">
+          5
+        </a>
+      </div>
+      <div style="display: flex;" id="dost_xabar" class=" ui segment">
+        <div class="ui labeled button" tabindex="0">
+            <div class="ui button">
+              <i class="comment outline icon"></i> Xabar qoldirish
+            </div>
+            <a class="ui basic label">
+              2
+            </a>
+          </div>
+          <div class="ui left labeled button" tabindex="0">
+            <a class="ui basic right pointing label">
+              2,048
+            </a>
+            <div class="ui button">
+              <i class="circular users icon"></i> Do`stlari 
+            </div>
+          </div>
+      </div>
+      
+      
+    </div>
+    <div class="ui header segment">
+      <h2 class="ui header"></h2>
+       <img src="/img/behruz.jpg" class="ui circular image">
+         Behruz
+
+      </h2> 
+           <br style="margin-bottom: 53px;">
+     <div class="ui labeled button" tabindex="0">
+         <div class="ui red button">
+            <i class="heart icon"></i> Layk
+          </div>
+          <a class="ui basic red left pointing label">
+           1,048
+      </a>
+    </div>
+    <div class="ui labeled button" tabindex="0">
+      <div class="ui basic blue button">
+        <i class="chess king icon"></i> Dasturchi-Darajasi
+      </div>
+      <a class="ui basic left pointing blue label">
+        5
+      </a>
+    </div>
+    <div style="display: flex;" id="dost_xabar" class=" ui segment">
+      <div class="ui labeled button" tabindex="0">
+          <div class="ui button">
+            <i class="comment outline icon"></i> Xabar qoldirish
+          </div>
+          <a class="ui basic label">
+            2
+          </a>
+        </div>
+        <div class="ui left labeled button" tabindex="0">
+          <a class="ui basic right pointing label">
+            2,048
+          </a>
+          <div class="ui button">
+            <i class="circular users icon"></i> Do`stlari 
+          </div>
+        </div>
+    </div>
+    
+    
+  </div>
+  <div class="ui header segment">
+    <h2 class="ui header"></h2>
+     <img src="/img/behruz.jpg" class="ui circular image">
+       Behruz
+
+    </h2> 
+         <br style="margin-bottom: 53px;">
+   <div class="ui labeled button" tabindex="0">
+       <div class="ui red button">
+          <i class="heart icon"></i> Layk
+        </div>
+        <a class="ui basic red left pointing label">
+         1,048
+    </a>
+  </div>
+  <div class="ui labeled button" tabindex="0">
+    <div class="ui basic blue button">
+      <i class="chess king icon"></i> Dasturchi-Darajasi
+    </div>
+    <a class="ui basic left pointing blue label">
+      5
+    </a>
+  </div>
+  <div style="display: flex;" id="dost_xabar" class=" ui segment">
+    <div class="ui labeled button" tabindex="0">
+        <div class="ui button">
+          <i class="comment outline icon"></i> Xabar qoldirish
+        </div>
+        <a class="ui basic label">
+          2
+        </a>
+      </div>
+      <div class="ui left labeled button" tabindex="0">
+        <a class="ui basic right pointing label">
+          2,048
+        </a>
+        <div class="ui button">
+          <i class="circular users icon"></i> Do`stlari 
+        </div>
+      </div>
+  </div>
+  
+  
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+<div class="ui header segment">
+  <h2 class="ui header"></h2>
+   <img src="/img/behruz.jpg" class="ui circular image">
+     Behruz
+
+  </h2> 
+       <br style="margin-bottom: 53px;">
+ <div class="ui labeled button" tabindex="0">
+     <div class="ui red button">
+        <i class="heart icon"></i> Layk
+      </div>
+      <a class="ui basic red left pointing label">
+       1,048
+  </a>
+</div>
+<div class="ui labeled button" tabindex="0">
+  <div class="ui basic blue button">
+    <i class="chess king icon"></i> Dasturchi-Darajasi
+  </div>
+  <a class="ui basic left pointing blue label">
+    5
+  </a>
+</div>
+<div style="display: flex;" id="dost_xabar" class=" ui segment">
+  <div class="ui labeled button" tabindex="0">
+      <div class="ui button">
+        <i class="comment outline icon"></i> Xabar qoldirish
+      </div>
+      <a class="ui basic label">
+        2
+      </a>
+    </div>
+    <div class="ui left labeled button" tabindex="0">
+      <a class="ui basic right pointing label">
+        2,048
+      </a>
+      <div class="ui button">
+        <i class="circular users icon"></i> Do`stlari 
+      </div>
+    </div>
+</div>
+
+
+</div>
+        
+
+     </div>
+</body>
+</html>
